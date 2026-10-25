@@ -1,0 +1,122 @@
+{
+  "split": "cross_boundary",
+  "scenario_count": 23,
+  "methods": {
+    "B0": {
+      "mean_ari": 0.0,
+      "ari_ci_95": [
+        0.0,
+        0.0
+      ],
+      "mean_v_measure": 0.6129286143874239,
+      "v_measure_ci_95": [
+        0.5767782889805649,
+        0.6525631488004382
+      ],
+      "mean_abs_cluster_error": 3.9565217391304346,
+      "exact_count_accuracy": 0.0,
+      "n_scenarios": 23,
+      "n_degenerate": 0
+    },
+    "B1": {
+      "mean_ari": 0.0,
+      "ari_ci_95": [
+        0.0,
+        0.0
+      ],
+      "mean_v_measure": 0.6129286143874239,
+      "v_measure_ci_95": [
+        0.5767782889805649,
+        0.6525631488004382
+      ],
+      "mean_abs_cluster_error": 3.9565217391304346,
+      "exact_count_accuracy": 0.0,
+      "n_scenarios": 23,
+      "n_degenerate": 0
+    },
+    "B2": {
+      "mean_ari": 0.0,
+      "ari_ci_95": [
+        0.0,
+        0.0
+      ],
+      "mean_v_measure": 0.6129286143874239,
+      "v_measure_ci_95": [
+        0.5767782889805649,
+        0.6525631488004382
+      ],
+      "mean_abs_cluster_error": 3.9565217391304346,
+      "exact_count_accuracy": 0.0,
+      "n_scenarios": 23,
+      "n_degenerate": 0
+    },
+    "B3": {
+      "mean_ari": 0.09287811283564631,
+      "ari_ci_95": [
+        0.041675015027048685,
+        0.15767797239709838
+      ],
+      "mean_v_measure": 0.635863104290819,
+      "v_measure_ci_95": [
+        0.5959775477293899,
+        0.6774480274876052
+      ],
+      "mean_abs_cluster_error": 3.5652173913043477,
+      "exact_count_accuracy": 0.0,
+      "n_scenarios": 23,
+      "n_degenerate": 0
+    }
+  },
+  "gate": {
+    "ari_improvement": {
+      "result": "passed",
+      "b1": 0.0,
+      "b3": 0.09287811283564631,
+      "delta": 0.09287811283564631,
+      "threshold": 0.05,
+      "paired_mean": 0.09287811283564631,
+      "paired_ci_95": [
+        0.0416137282402442,
+        0.16062060659996386
+      ]
+    },
+    "v_measure_improvement": {
+      "result": "failed",
+      "b1": 0.6129286143874239,
+      "b3": 0.635863104290819,
+      "delta": 0.022934489903395194,
+      "threshold": 0.05,
+      "paired_mean": 0.022934489903395132,
+      "paired_ci_95": [
+        0.01071503507073505,
+        0.03769562814619434
+      ]
+    },
+    "cluster_error_reduction": {
+      "result": "passed",
+      "b1": 3.9565217391304346,
+      "b3": 3.5652173913043477,
+      "delta": -0.3913043478260869,
+      "threshold": 0.05,
+      "paired_mean": -0.391304347826087,
+      "paired_ci_95": [
+        -0.6086956521739131,
+        -0.17391304347826086
+      ]
+    },
+    "exact_count_accuracy": {
+      "result": "failed",
+      "b1": 0.0,
+      "b3": 0.0,
+      "delta": 0.0,
+      "threshold": 0.05,
+      "paired_mean": 0.0,
+      "paired_ci_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "overall": "failed",
+    "min_improvement_threshold": 0.05
+  }
+}

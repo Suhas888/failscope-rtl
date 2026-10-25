@@ -1,0 +1,5 @@
+%Error: counter.v:42: Assertion failed: count == expected_count (got 7, expected 8)
+         counter.v:42:  ... note: expected 8
+%Error: counter.v:57: Assertion failed: count == expected_count (got 15, expected 16)
+         counter.v:57:  ... note: expected 16
+%Error-ASSERT: counter.v:42: LHS != RHS: count=7 expected=8

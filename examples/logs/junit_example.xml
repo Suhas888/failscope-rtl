@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cocotb_results" tests="4" failures="2" errors="0" skipped="1">
+  <testsuite name="counter_tb" tests="4" failures="2" errors="0" skipped="1" time="3.14">
+    <testcase name="test_count_up" classname="counter_tb" time="0.52">
+      <failure type="AssertionError" message="count mismatch at cycle 8">
+        count mismatch at cycle 8
+        Expected: 8, Got: 7
+        counter.v:42: Assertion failed
+      </failure>
+    </testcase>
+    <testcase name="test_count_wrap" classname="counter_tb" time="0.61">
+      <failure type="AssertionError" message="count mismatch at cycle 16">
+        count mismatch at cycle 16
+        Expected: 0, Got: 15
+        counter.v:57: Assertion failed
+      </failure>
+    </testcase>
+    <testcase name="test_reset" classname="counter_tb" time="0.31">
+    </testcase>
+    <testcase name="test_max_value" classname="counter_tb" time="0.22">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>

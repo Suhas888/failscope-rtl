@@ -1,0 +1,7 @@
+UVM_ERROR [SCOREBOARD] scoreboard @ 1000ns: Data mismatch exp=0xDEAD got=0xBEEF
+UVM_ERROR [SCOREBOARD] scoreboard @ 2000ns: Data mismatch exp=0x1234 got=0x5678
+UVM_FATAL [TIMEOUT] tb @ 5000ns: Watchdog expired
+UVM Report Summary
+UVM_FATAL : 1
+UVM_ERROR : 2
+UVM_WARNING : 0
